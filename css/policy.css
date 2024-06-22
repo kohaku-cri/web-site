@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "M PLUS Rounded 1c";
+    src: url(../font/MPLUSRounded1c-Medium.ttf);
+   }
+@font-face {
+    font-family: "Noto Sans JP";
+    src: url(../font/NotoSansJP-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Dela Gothic One";
+    src: url(../font/DelaGothicOne-Regular.ttf);
+}
+@font-face {
+    font-family: "DotGothic16";
+    src: url(../font/DotGothic16-Regular.ttf);
+}
+@font-face {
+    font-family: "Potta One";
+    src: url(../font/PottaOne-Regular.ttf);
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #e6e7e8;
+    font-family: "Noto Sans JP";
+}
+.nav1:hover{
+    background-color: #177a87;
+    transition: 0.3;
+}
+.nav2:hover{
+    background-color: #177a87;
+    transition: 0.3;
+}
+.nav3:hover{
+    background-color: #177a87;
+    transition: 0.3;
+}
+.nav4:hover{
+    background-color: #177a87;
+    transition: 0.3;
+}
+.main{
+    text-align: center;
+    color: #272727;
+}
+.main a{
+    color: #1b08ca;
+}
+.main h1{
+    font-size: 30px;
+    margin-top: 50px;
+}
+.guideline{
+    margin-bottom: 100vh;
+}
+.guideline-Omitted{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.main h2{
+    font-size: 20px;
+    margin-top: 70px;
+}
+.main p{
+    font-size: 15px;
+    margin-top: 10px;
+    padding-bottom: -5px;
+}
+.nav a{
+    color: #272727;
+    text-decoration: none;
+    background-color: #1E99AA;
+    color: #efefef;
+    border-radius: 10px;
+    padding: 5px 70px;
+    margin-top: 10px;
+}
+.nav{
+    margin-top: 70px;
+
+}
+footer{
+    color: #272727;
+    margin-top: 140px;
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.main p span{
+    /* border-bottom: 1px solid #efefef; */
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+.time{
+    font-size: 12px;
+}
+.arrow{
+    width: 70px;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 1px solid #272727;
+    border-radius: 10px;
+}
