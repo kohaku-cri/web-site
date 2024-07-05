@@ -1,0 +1,299 @@
+@font-face {
+    font-family: "M PLUS Rounded 1c";
+    src: url(../font/MPLUSRounded1c-Medium.ttf);
+   }
+@font-face {
+    font-family: "Noto Sans JP";
+    src: url(../font/NotoSansJP-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Dela Gothic One";
+    src: url(../font/DelaGothicOne-Regular.ttf);
+}
+@font-face {
+    font-family: "DotGothic16";
+    src: url(../font/DotGothic16-Regular.ttf);
+}
+@font-face {
+    font-family: "Potta One";
+    src: url(../font/PottaOne-Regular.ttf);
+}
+@font-face {
+    font-family: "M PLUS Rounded 1c Light";
+    src: url(../font/MPLUSRounded1c-Light.ttf);
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #e6e7e8;
+    font-family: "Noto Sans JP";
+
+}
+header{
+    height: 64px;
+    width: 100%;
+    /* text-align: center; */
+    color: #efefef;
+    background-color: #500075;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Noto Sans JP";
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+header a{
+    text-decoration: none;
+    color: #efefef;
+    border: 2px solid #efefef;
+    padding: 5px 30px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.main{
+    margin-top: 100px;
+    text-align: center;
+    /* ⇩を後で消す */
+    /* padding-bottom: 5000px; */
+    padding: auto 100vh;
+}
+.new-world img{
+
+    margin-top: 20px;
+    width: 416px;
+    height: 230px;
+    border-radius: 5px;
+    box-shadow: 4px 2px 2px rgba(61, 57, 57,0.4);
+}
+.new-world {
+    margin-top: 50px;
+    color: #1b1b1b;
+}
+.new-world h1{
+    font-weight: 200;
+    font-family: "Potta One";
+    
+    padding-bottom: 4px;
+}
+.new-world h2{
+    font-weight: 200;
+    padding-top: 30px;
+    font-size: 30px;
+    border-bottom: 1px solid #1b1b1b99;
+    margin: auto 30%;
+    padding-bottom: 10px;
+    font-family: "M PLUS Rounded 1c";
+
+}
+.new-world p {
+    padding-top: 10px;
+    font-weight: 200;
+    margin-bottom: 40px;
+    font-family: "DotGothic16";
+}
+.new-world a{
+    text-decoration: none;
+    padding: 15px 40px;
+    background-color: #1E99AA;
+    font-size: 20px;
+    border-radius: 30px;
+    color: #efefef;
+    font-family: "Noto Sans JP";
+
+}
+.new-world a:hover{
+    background-color: #177a87;
+    transition: 0.3;
+}
+.world-button:hover{
+    transition: 0.3s;
+    background-color: #177a87;
+}
+.sns{
+    font-family: "Noto Sans JP";
+    margin-top: 140px;
+    margin-bottom: 40px;
+}
+.sns h1{
+    margin-top: 70px;
+    font-weight: 200;
+    margin-bottom: 50px;
+}
+.youtube{
+    margin-right: 10px;
+    text-decoration: none;
+   background-color: #a61922;
+   color: #efefef;
+   padding: 14px 50px;
+   display: inline;
+   border-radius: 20px;
+}
+
+.twitter{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+   background-color: #2e92d1;
+   color: #efefef;
+   padding: 14px 50px;
+   display: inline;
+   border-radius: 20px;
+}
+
+.bluesky{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+   background-color: #1185FE;
+   color: #efefef;
+   padding: 14px 50px;
+   display: inline;
+   border-radius: 20px;
+}
+.crafter{
+    margin-left: 10px;
+    text-decoration: none;
+   background-color: #ed9c4c;
+   color: #efefef;
+   padding: 14px 50px;
+   display: inline;
+   border-radius: 20px;
+}
+.links{
+    justify-content: center;
+    font-family: "Dela Gothic One";
+
+}
+@media screen and (max-width:840px){
+    .links{
+        display:flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 10vh;
+    }
+    .links a{
+        width: 100%;
+        margin-bottom: 30px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+.youtube:hover{
+    background-color: #91161e;
+    transition: 0.3;
+}
+.twitter:hover{
+    background-color: #2880b6;
+    transition: 0.3;
+}
+.bluesky:hover{
+    background-color: #0b77e9;
+    transition: 0.3;
+}
+.crafter:hover{
+    background-color: #d38a41;
+    transition: 0.3;
+}
+.world-list{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.world-list h1{
+    font-family: "M PLUS Rounded 1c";
+    font-weight: 200;
+    color: #1b1b1b;
+    /* font-size: 23px; */
+    font-size: 21px;
+    margin-top: 15px;
+    border-bottom: 1px solid #1b1b1b99;
+    padding-bottom: 15px;
+    margin: auto 20px;
+    /* width: 75%; */
+}
+.world-list p{
+    /* font-family: "Noto Serif JP"; */
+    font-family: "DotGothic16";
+    font-weight: 400;
+    color: #1b1b1b;
+    font-size: 100%;
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+.world-list img{
+    width: 80%;
+    /* width: 280px; */
+    /* height: 126px; */
+    border-radius: 5px;
+    box-shadow: 4px 2px 2px rgba(61, 57, 57,0.4);
+    margin: auto 40px;
+}
+.title-world-list{
+    font-family: "Potta One";
+    font-weight: 200;
+    color: #1b1b1b;
+    margin-top: 100px;
+}
+.world-button{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #1E99AA;
+    font-size: 15px;
+    border-radius: 30px;
+    color: #efefef;
+    font-family: "Noto Sans JP";
+}
+.world-list div{
+    width: 25%;
+    margin-top: 50px;
+}
+@media screen and (max-width:1600px) {
+    .world-list h1{
+        font-size: 17px;
+        /* font-family: "M PLUS Rounded 1c Light"; */
+    }
+    .world-list p{
+        font-size: 90%;
+    }
+}
+@media screen and (max-width:1280px) {
+    .world-list div{
+        width: 50%;
+
+    }
+    .world-list{
+        margin: auto 5%;
+    }
+    .world-list h1{
+        font-size: 21px;
+        font-family: "M PLUS Rounded 1c";
+    }
+    .world-list img{
+        width: 70%;
+    }
+}
+@media screen and (max-width:880px) {
+    .world-list div{
+        width: 100%;
+    }
+    .world-list h1{
+        font-size: 21px;
+        font-family: "M PLUS Rounded 1c";
+    }
+    .world-list img{
+        width: 60%;
+    }
+}
+footer{
+    margin-top: 70px;
+    color: #1b1b1b;
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
