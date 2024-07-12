@@ -110,7 +110,7 @@ header a{
         width: 90%;
     }
 }
-@media screen and (max-width:350px) {
+@media screen and (max-width:400px) {
     .new-world h2{
         font-size: 20px;
     }
@@ -285,6 +285,16 @@ header a{
     }
     .world-list img{
         width: 60%;
+    }
+}
+@media screen and (max-width:550px) {
+    .world-list img{
+        width: 80%;
+    }
+}
+@media screen and (max-width:400px) {
+    .world-list h1{
+        font-size: 15px;
     }
 }
 .playtime h1{
