@@ -1,0 +1,464 @@
+
+    /* "FontName" licensed under the SIL Open Font License
+    
+    https://fonts.google.com/noto/specimen/Noto+Sans+JP
+    https://fonts.google.com/specimen/Potta+One
+    https://fonts.google.com/noto/specimen/Noto+Serif+JP
+    
+    */
+
+@font-face {
+    font-family: "Noto Sans JP";
+    src: url(../font/NotoSansJP-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Potta One";
+    src: url(../font/PottaOne-Regular.ttf);
+}
+@font-face {
+    font-family: "NotoSerifJP";
+    src: url(../font/NotoSerifJP-Regular.ttf);
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #e6e7e8;
+    font-family: "Noto Sans JP";
+
+}
+header{
+    height: 64px;
+    width: 100%;
+    /* text-align: center; */
+    color: #efefef;
+    background-color: #500075;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Noto Sans JP";
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+header a{
+    text-decoration: none;
+    color: #efefef;
+    border: 2px solid #efefef;
+    padding: 5px 30px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.main{
+    margin-top: 70px;
+    text-align: center;
+    /* ⇩を後で消す */
+    /* padding-bottom: 5000px; */
+    padding: auto 100vh;
+}
+.new-world img{
+
+    margin-top: 20px;
+    width: 416px;
+}
+.new-world {
+    margin-top: 50px;
+    color: #1b1b1b;
+}
+.new-world h1{
+    font-weight: 200;
+    font-family: "Potta One";
+    
+    padding-bottom: 4px;
+}
+.new-world h2{
+    font-weight: 200;
+    padding-top: 10px;
+    font-size: 25px;
+    border-bottom: 1px solid #1b1b1b99;
+    padding-bottom: 10px;
+    font-family: "Noto Sans JP";
+
+}
+.new-world p {
+    padding-top: 10px;
+    font-weight: 200;
+    margin-bottom: 40px;
+    font-family: "NotoSerifJP";
+}
+.new-world a{
+    text-decoration: none;
+    padding: 15px 40px;
+    background-color: #1E99AA;
+    font-size: 20px;
+    border-radius: 30px;
+    color: #efefef;
+    font-family: "Noto Sans JP";
+
+}
+.new-world a:hover{
+    background-color: #177a87;
+    transition: 0.3s;
+}
+.world-button:hover{
+    transition: 0.3s;
+    background-color: #177a87;
+}
+@media screen and (max-width:460px) {
+    .new-world img{
+        width: 90%;
+    }
+}
+@media screen and (max-width:350px) {
+    .new-world h2{
+        font-size: 20px;
+    }
+}
+.sns{
+    font-family: "Noto Sans JP";
+    margin-top: 140px;
+    margin-bottom: 40px;
+}
+.sns h1{
+    margin-top: 70px;
+    font-weight: 200;
+    margin-bottom: 50px;
+}
+.youtube{
+    margin-right: 10px;
+    text-decoration: none;
+   background-color: #a61922;
+   color: #efefef;
+   padding: 14px 50px;
+   display: inline;
+   border-radius: 20px;
+}
+
+.twitter{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+   background-color: #2e92d1;
+   color: #efefef;
+   padding: 14px 50px;
+   display: inline;
+   border-radius: 20px;
+}
+
+.bluesky{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+   background-color: #1185FE;
+   color: #efefef;
+   padding: 14px 50px;
+   display: inline;
+   border-radius: 20px;
+}
+.crafter{
+    margin-left: 10px;
+    text-decoration: none;
+   background-color: #ed9c4c;
+   color: #efefef;
+   padding: 14px 50px;
+   display: inline;
+   border-radius: 20px;
+}
+.links{
+    justify-content: center;
+    font-family: "Potta One";
+
+}
+@media screen and (max-width:840px){
+    .links{
+        display:flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 10vh;
+    }
+    .links a{
+        width: 100%;
+        margin-bottom: 30px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+.youtube:hover{
+    background-color: #91161e;
+    transition: 0.3s;
+}
+.twitter:hover{
+    background-color: #2880b6;
+    transition: 0.3s;
+}
+.bluesky:hover{
+    background-color: #0b77e9;
+    transition: 0.3s;
+}
+.crafter:hover{
+    background-color: #d38a41;
+    transition: 0.3s;
+}
+.world-list{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.world-list h1{
+    font-family: "Noto Sans JP";
+    font-weight: 200;
+    color: #1b1b1b;
+    /* font-size: 23px; */
+    font-size: 21px;
+    margin-top: 15px;
+    border-bottom: 1px solid #1b1b1b99;
+    padding-bottom: 8px;
+    margin: auto 20px;
+    /* width: 75%; */
+}
+.world-list p{
+    font-family: "NotoSerifJP";
+    font-weight: 400;
+    color: #1b1b1b;
+    font-size: 100%;
+    margin-top: 15px;
+    padding-bottom: 30px;
+}
+.world-list img{
+    width: 80%;
+    /* width: 280px; */
+    /* height: 126px; */
+    margin: auto 35px;
+}
+.title-world-list{
+    font-family: "Potta One";
+    font-weight: 200;
+    color: #1b1b1b;
+    margin-top: 100px;
+}
+.world-button{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #1E99AA;
+    font-size: 15px;
+    border-radius: 30px;
+    color: #efefef;
+    font-family: "Noto Sans JP";
+}
+.world-list div{
+    width: 25%;
+    margin-top: 50px;
+}
+@media screen and (max-width:1600px) {
+    .world-list h1{
+        font-size: 17px;
+    }
+    .world-list p{
+        font-size: 90%;
+    }
+}
+@media screen and (max-width:1280px) {
+    .world-list div{
+        width: 50%;
+
+    }
+    .world-list{
+        margin: auto 5%;
+    }
+    .world-list h1{
+        font-size: 21px;
+    }
+    .world-list img{
+        width: 70%;
+    }
+}
+@media screen and (max-width:880px) {
+    .world-list div{
+        width: 100%;
+    }
+    .world-list h1{
+        font-size: 21px;
+    }
+    .world-list img{
+        width: 60%;
+    }
+}
+.playtime h1{
+    margin-top: 120px;
+    font-family: "Potta One";
+    color: #1b1b1b;
+
+}
+.playtime p{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.playtime a{
+    text-decoration: none;
+    padding: 15px 40px;
+    background-color: #1E99AA;
+    font-size: 20px;
+    border-radius: 30px;
+    color: #efefef;
+    font-family: "Noto Sans JP";
+}
+.playtime a:hover{
+    background-color: #177a87;
+    transition: 0.3s;
+}
+.diary h1{
+    margin-top: 120px;
+    font-family: "Potta One";
+    color: #1b1b1b;
+    margin-bottom: 60px;
+}
+.diary p{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+.diary a{
+    text-decoration: none;
+    padding: 15px 40px;
+    background-color: #1E99AA;
+    font-size: 20px;
+    border-radius: 30px;
+    color: #efefef;
+    font-family: "Noto Sans JP";
+}
+.diary a:hover{
+    background-color: #177a87;
+    transition: 0.3s;
+}
+.gallery h1{
+    margin-top: 120px;
+    font-family: "Potta One";
+    color: #1b1b1b;
+}
+.gallery p{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.gallery a{
+    text-decoration: none;
+    padding: 15px 40px;
+    background-color: #1E99AA;
+    font-size: 20px;
+    border-radius: 30px;
+    color: #efefef;
+    font-family: "Noto Sans JP";
+}
+.gallery a:hover{
+    background-color: #177a87;
+    transition: 0.3s;
+}
+.information h1{
+    margin-top: 120px;
+    font-family: "Potta One";
+    color: #1b1b1b;
+    margin-bottom: 30px;
+
+}
+.information p{
+    font-size: 16px;
+}
+.information a{
+    text-decoration: none;
+    padding: 15px 40px;
+    background-color: #1E99AA;
+    font-size: 20px;
+    border-radius: 30px;
+    color: #efefef;
+    font-family: "Noto Sans JP";
+    margin-top: 40px;
+    display: inline-block;
+}
+.creeper h1{
+    margin-top: 120px;
+    font-family: "Potta One";
+    color: #1b1b1b;
+    margin-bottom: 30px;
+
+}
+@media screen and (max-width:420px) {
+    .creeper h1{
+        font-size: 25px;
+    }
+    .information h1{
+        font-size: 25px;
+    }
+}
+.creeper p{
+    margin-bottom: 5px;
+}
+.small{
+    font-size: 14px;
+}
+.creeper a{
+    text-decoration: none;
+    padding: 15px 40px;
+    background-color: #1E99AA;
+    font-size: 20px;
+    border-radius: 30px;
+    color: #efefef;
+    font-family: "Noto Sans JP";
+}
+.flex img{
+    width: 512px;
+    /* border: 2px solid #a7a7a7; */
+}
+.flex div{
+    display: inline-block;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 90px;
+}
+.flex h2{
+    margin-top: 5px;
+    font-family: "NotoSerifJP";
+    font-weight: 100;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.flex{
+    margin-top: 60px;
+}
+.flex p{
+    font-family: "NotoSerifJP";
+    font-size: 17px;
+    background-color: #f3f3f3;
+}
+
+@media screen and (max-width:600px) {
+    .flex img{
+        width: 95%;
+    }
+}
+.br{
+    display: none;
+}
+@media screen and (max-width:660px) {
+    .br{
+        display: block;
+    }
+    .creeper p{
+        font-size: 13px;
+    }
+    .playtime p{
+        font-size: 13px
+    }
+    .information p{
+        font-size: 13px;
+    }
+}
+footer{
+    margin-top: 70px;
+    color: #1b1b1b;
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
