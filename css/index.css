@@ -58,7 +58,8 @@ header a{
     padding: auto 100vh;
 }
 .new-world img{
-
+    border-radius: 2px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.521);
     margin-top: 20px;
     width: 416px;
 }
@@ -233,6 +234,8 @@ header a{
     /* width: 280px; */
     /* height: 126px; */
     margin: auto 35px;
+    border-radius: 2px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.521);
 }
 .title-world-list{
     font-family: "Potta One";
@@ -316,6 +319,8 @@ header a{
 }
 .tools img{
     width: 80%;
+    border-radius: 2px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.521);
 }
 
 @media screen and (max-width:1600px) {
