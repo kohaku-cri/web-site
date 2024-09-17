@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="jp">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>こはく脱出マップ配布所｜財宝ナビゲータ</title>
+        <link rel="stylesheet" href="css/tool1.css">
+        <link rel="icon" href="../img/favicon.svg" sizes="any" type="image/svg+xml">
+        <meta name="description" content="マインクラフト統合版の埋もれた財宝を見つけるツール">
+        <script src="script/tool1.js"></script>
+    </head>
+    <body>
+      <header>
+        <a href="https://kohaku-cri.f5.si/">ホームに戻る</a>
+      </header>
+
+        <div class="main">
+            <h1>財宝ナビゲータ</h1>
+            <p>マインクラフト統合版の埋もれた財宝を</p>
+            <p>特定することのできるツールです</p>
+            <input id="get_int" type="text" class="text_input" size="40" placeholder="ここに座標を入力" value="" type="number">
+            <div class="buttons">
+                <button class="reset" onclick="reset()">リセット</button>
+                <button class="run" onclick="run()">財宝を探す</button>
+            </div>
+            <div class="result">
+              <h2>探索結果</h2>
+              <p class="result_text" id="result_text"></p>
+              <p class="result_error" id="result_error"></p>
+             </div>
+            <h2 class="torisetu">取扱説明書/トリセツ</h2>
+            <div class="use">
+              <div>
+                <img src="img/a1.png" alt="沈没船や海底遺跡のチェストから宝の地図を発見">
+                <h3>宝の地図を見つける</h3>
+              </div>
+              <div>
+                <img src="img/a2.png" alt="宝の地図の×印に向かう">
+                <h3>×印に向かう</h3>
+              </div>
+              <div>
+                <img src="img/a3.png" alt="座標をサイトに入力">
+                <h3>×印付近の座標を入力する</h3>
+              </div>
+            </div>
+            <p>座標の入力形式（□＝半角スペース）</p>
+            <p>x□y□z</p>
+        </div>
+        <footer>
+            <div class="sns">
+              <div class="links">
+              <!-- <div class="youtube"> -->
+                <a href="https://www.youtube.com/@kohaku_ch" class="youtube" target="_blank" rel="noopener noreferrer">YouTube</a>
+              <!-- </div> -->
+              <!-- <div class="twitter"> -->
+                <a href="https://twitter.com/kohaku_cri" class="twitter" target="_blank" rel="noopener noreferrer">Twitter</a>
+              <!-- </div> -->
+                <a href="https://bsky.app/profile/kohaku-cri.bsky.social" class="bluesky" target="_blank" rel="noopener noreferrer">Bluesky</a>
+                <a href="https://minecraft-mcworld.com/author/fa4819bad0d33870ae98f5a7d971ae49d4f86553/" class="crafter" target="_blank" rel="noopener noreferrer">クラフターズコロニー</a>
+            </div>
+            </div>
+            <p>© 2024 <cite translate="no"> こはく kohaku</cite></p>
+          </footer>
+    </body>
+</html>

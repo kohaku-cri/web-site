@@ -1,0 +1,239 @@
+    /* "FontName" licensed under the SIL Open Font License
+    
+    https://fonts.google.com/noto/specimen/Noto+Sans+JP
+    https://fonts.google.com/specimen/Potta+One
+    https://fonts.google.com/noto/specimen/Noto+Serif+JP    
+    */
+
+    @font-face {
+        font-family: "Noto Sans JP";
+        src: url(../../font/NotoSansJP-SemiBold.ttf);
+    }
+    @font-face {
+        font-family: "Potta One";
+        src: url(../../font/PottaOne-Regular.ttf);
+    }
+    @font-face {
+        font-family: "NotoSerifJP";
+        src: url(../../font/NotoSerifJP-Regular.ttf);
+    }
+
+header{
+    text-align: center;
+}
+header a{
+    color: #272727;
+    text-decoration: none;
+    background-color: #1E99AA;
+    color: #efefef;
+    border-radius: 10px;
+    padding: 5px 20%;
+    margin-top: 10px;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #e6e7e8;
+    font-family: "Noto Sans JP";
+    color: #1b1b1b;
+    text-align: center;
+}
+.main{
+    margin-top: 120px;
+}
+.torisetu{
+    margin-top: 200px;
+}
+.text_input{
+    border: none;
+    padding: 20px 70px;
+    border-radius: 10px;
+    margin-top: 80px;
+    text-align: center;
+}
+input[type="text"]:focus{
+    outline: none;
+    box-shadow: 0px 0px 3px 0px #464646
+}
+.buttons{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+.reset{
+    padding: 10px 30px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.run{
+    padding: 10px 100px;
+    cursor: pointer;
+}
+
+.use{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.use div{
+    width: 30%;
+}
+.use img{
+    width: 65%;
+    border-radius: 2px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.521);
+}
+.use h3{
+    font-size: 16px;
+}
+.result{
+    display: inline-block;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 300px;
+    height: 200px;
+}
+.result_text{
+    font-size: 18px;
+}
+.result_error{
+    font-size: 15px;
+    color: #464646;
+}
+.sns{
+    margin-top: 140px;
+    margin-bottom: 40px;
+}
+.sns h1{
+    margin-top: 70px;
+    font-weight: 200;
+    margin-bottom: 50px;
+}
+.youtube{
+    margin-right: 10px;
+    text-decoration: none;
+   background-color: #a61922;
+   color: #efefef;
+   padding: 14px 50px;
+   display: inline;
+   border-radius: 20px;
+}
+
+.twitter{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+   background-color: #2e92d1;
+   color: #efefef;
+   padding: 14px 50px;
+   display: inline;
+   border-radius: 20px;
+}
+
+.bluesky{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+   background-color: #1185FE;
+   color: #efefef;
+   padding: 14px 50px;
+   display: inline;
+   border-radius: 20px;
+}
+.crafter{
+    margin-left: 10px;
+    text-decoration: none;
+   background-color: #ed9c4c;
+   color: #efefef;
+   padding: 14px 50px;
+   display: inline;
+   border-radius: 20px;
+}
+.links{
+    justify-content: center;
+    font-family: "Potta One";
+
+}
+.youtube:hover{
+    background-color: #91161e;
+    transition: 0.3s;
+}
+.twitter:hover{
+    background-color: #2880b6;
+    transition: 0.3s;
+}
+.bluesky:hover{
+    background-color: #0b77e9;
+    transition: 0.3s;
+}
+.crafter:hover{
+    background-color: #d38a41;
+    transition: 0.3s;
+}
+footer{
+    margin-top: 70px;
+    color: #1b1b1b;
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width:840px){
+    .links{
+        display:flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 10vh;
+    }
+    .links a{
+        width: 100%;
+        margin-bottom: 30px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media screen and (max-width:650px) {
+    .use h3{
+        font-size: 14px;
+    }
+    .use{
+        flex-flow: column;
+    }
+    .use div{
+        width: 70%;
+        margin-bottom: 30px;
+    }
+    .use img{
+        width: 65%;
+    }
+}
+@media screen and (max-width:450px) {
+    .text_input{
+        padding: 20px 0px;
+    }
+    .reset{
+        padding: 10px 20px;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+    .calculate{
+        padding: 10px 40px;
+        cursor: pointer;
+    }
+    .main p{
+        font-size: 13px;
+    }
+    .run{
+        padding: 10px 60px;
+    }
+    .use img{
+        width: 90%;
+    }
+}

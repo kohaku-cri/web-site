@@ -253,50 +253,7 @@ header a{
     width: 25%;
     margin-top: 50px;
 }
-@media screen and (max-width:1600px) {
-    .world-list h1{
-        font-size: 17px;
-    }
-    .world-list p{
-        font-size: 90%;
-    }
-}
-@media screen and (max-width:1280px) {
-    .world-list div{
-        width: 50%;
 
-    }
-    .world-list{
-        margin: auto 5%;
-    }
-    .world-list h1{
-        font-size: 21px;
-    }
-    .world-list img{
-        width: 70%;
-    }
-}
-@media screen and (max-width:880px) {
-    .world-list div{
-        width: 100%;
-    }
-    .world-list h1{
-        font-size: 21px;
-    }
-    .world-list img{
-        width: 60%;
-    }
-}
-@media screen and (max-width:550px) {
-    .world-list img{
-        width: 80%;
-    }
-}
-@media screen and (max-width:400px) {
-    .world-list h1{
-        font-size: 15px;
-    }
-}
 .playtime h1{
     margin-top: 120px;
     font-family: "Potta One";
@@ -320,29 +277,105 @@ header a{
     background-color: #177a87;
     transition: 0.3s;
 }
-.diary h1{
-    margin-top: 120px;
-    font-family: "Potta One";
+
+.tools h1{
+    margin-top: 20px;
+    font-family: "Noto Sans JP";
     color: #1b1b1b;
-    margin-bottom: 60px;
-}
-.diary p{
-    margin-top: 30px;
-    margin-bottom: 40px;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
     font-size: 25px;
 }
-.diary a{
+.tools p{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+.tools a{
     text-decoration: none;
     padding: 15px 40px;
     background-color: #1E99AA;
-    font-size: 20px;
+    font-size: 14px;
     border-radius: 30px;
     color: #efefef;
     font-family: "Noto Sans JP";
 }
-.diary a:hover{
+.tools a:hover{
     background-color: #177a87;
     transition: 0.3s;
+}
+.tools{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.tools div{
+    width: 25%;
+    margin-bottom: 60px;
+}
+.tools img{
+    width: 80%;
+}
+
+@media screen and (max-width:1600px) {
+    .world-list h1{
+        font-size: 17px;
+    }
+    .world-list p{
+        font-size: 90%;
+    }
+}
+@media screen and (max-width:1280px) {
+    .world-list div{
+        width: 50%;
+
+    }
+    .world-list{
+        margin: auto 5%;
+    }
+    .world-list h1{
+        font-size: 21px;
+    }
+    .world-list img{
+        width: 70%;
+    }
+    .tools div{
+        width: 50%;
+    }
+}
+@media screen and (max-width:880px) {
+    .world-list div{
+        width: 100%;
+    }
+    .world-list h1{
+        font-size: 21px;
+    }
+    .world-list img{
+        width: 50%;
+    }
+    .tools div{
+        width: 100%;
+    }
+    .tools h1{
+        font-size: 21px;
+    }
+    .tools img{
+        width: 50%;
+    }
+}
+@media screen and (max-width:550px) {
+    .world-list img{
+        width: 80%;
+    }
+    .tools img{
+        width: 80%;
+    }
+}
+@media screen and (max-width:400px) {
+    .world-list h1{
+        font-size: 15px;
+    }
 }
 .gallery h1{
     margin-top: 120px;
