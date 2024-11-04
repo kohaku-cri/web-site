@@ -1,7 +1,7 @@
-// F12からメッセージ見るとかサイテー・・・ こはく
+// 開発者ツールからメッセージ見るとかサイテー・・・ こはく
 
 function showAlert() {
-    alert("ワァ！見つかったァ\nトリックorトリック\nもうすぐハロウィン！");
+    alert("ワァ！見つかったァ\n神社が舞台のものかそれとも\nクリスマスマップかはたまたホラー系か・・・\n未定ってことですね！（？）");
 }
 document.addEventListener("DOMContentLoaded", (event) => {
     const specificLink = document.getElementById("specific-link");
